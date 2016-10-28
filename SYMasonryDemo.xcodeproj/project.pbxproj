@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C957E19C36A499F24EA841CE /* libPods-SYMasonryDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EADDF8FDB47DC294B8A2C39 /* libPods-SYMasonryDemo.a */; };
 		F52B1E651DC315A700E67A1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F52B1E641DC315A700E67A1F /* main.m */; };
 		F52B1E681DC315A700E67A1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F52B1E671DC315A700E67A1F /* AppDelegate.m */; };
 		F52B1E6B1DC315A700E67A1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52B1E6A1DC315A700E67A1F /* ViewController.m */; };
 		F52B1E6E1DC315A700E67A1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52B1E6C1DC315A700E67A1F /* Main.storyboard */; };
 		F52B1E701DC315A700E67A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F52B1E6F1DC315A700E67A1F /* Assets.xcassets */; };
 		F52B1E731DC315A700E67A1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F52B1E711DC315A700E67A1F /* LaunchScreen.storyboard */; };
+		F52B1E7D1DC320F900E67A1F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52B1E7C1DC320F900E67A1F /* FirstViewController.m */; };
+		F52B1E801DC3275200E67A1F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F52B1E7F1DC3275200E67A1F /* SecondViewController.m */; };
+		F52B1E821DC3298000E67A1F /* my.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F52B1E811DC3298000E67A1F /* my.jpg */; };
+		F52B1E851DC329B700E67A1F /* SecondModel.m in Sources */ = {isa = PBXBuildFile; fileRef = F52B1E841DC329B700E67A1F /* SecondModel.m */; };
+		F52B1E881DC329D400E67A1F /* SecondCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F52B1E871DC329D400E67A1F /* SecondCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7EADDF8FDB47DC294B8A2C39 /* libPods-SYMasonryDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SYMasonryDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6FE9D73497006971B83FE38 /* Pods-SYMasonryDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYMasonryDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SYMasonryDemo/Pods-SYMasonryDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CC30980C6777D1FA009B02F6 /* Pods-SYMasonryDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SYMasonryDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SYMasonryDemo/Pods-SYMasonryDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		F52B1E601DC315A600E67A1F /* SYMasonryDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SYMasonryDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F52B1E641DC315A700E67A1F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F52B1E661DC315A700E67A1F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +35,15 @@
 		F52B1E6F1DC315A700E67A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F52B1E721DC315A700E67A1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F52B1E741DC315A700E67A1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F52B1E7B1DC320F900E67A1F /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		F52B1E7C1DC320F900E67A1F /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		F52B1E7E1DC3275200E67A1F /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		F52B1E7F1DC3275200E67A1F /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F52B1E811DC3298000E67A1F /* my.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = my.jpg; sourceTree = "<group>"; };
+		F52B1E831DC329B700E67A1F /* SecondModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondModel.h; sourceTree = "<group>"; };
+		F52B1E841DC329B700E67A1F /* SecondModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondModel.m; sourceTree = "<group>"; };
+		F52B1E861DC329D400E67A1F /* SecondCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondCell.h; sourceTree = "<group>"; };
+		F52B1E871DC329D400E67A1F /* SecondCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +51,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C957E19C36A499F24EA841CE /* libPods-SYMasonryDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3DA7209CF6589E696971DA8E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7EADDF8FDB47DC294B8A2C39 /* libPods-SYMasonryDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD9E6890B3D2023EA3278BE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC30980C6777D1FA009B02F6 /* Pods-SYMasonryDemo.debug.xcconfig */,
+				A6FE9D73497006971B83FE38 /* Pods-SYMasonryDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F52B1E571DC315A600E67A1F = {
 			isa = PBXGroup;
 			children = (
 				F52B1E621DC315A600E67A1F /* SYMasonryDemo */,
 				F52B1E611DC315A600E67A1F /* Products */,
+				BD9E6890B3D2023EA3278BE7 /* Pods */,
+				3DA7209CF6589E696971DA8E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +96,8 @@
 		F52B1E621DC315A600E67A1F /* SYMasonryDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F52B1E811DC3298000E67A1F /* my.jpg */,
+				F52B1E7A1DC31FA600E67A1F /* Classes */,
 				F52B1E661DC315A700E67A1F /* AppDelegate.h */,
 				F52B1E671DC315A700E67A1F /* AppDelegate.m */,
 				F52B1E691DC315A700E67A1F /* ViewController.h */,
@@ -79,6 +119,21 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		F52B1E7A1DC31FA600E67A1F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F52B1E7B1DC320F900E67A1F /* FirstViewController.h */,
+				F52B1E7C1DC320F900E67A1F /* FirstViewController.m */,
+				F52B1E7E1DC3275200E67A1F /* SecondViewController.h */,
+				F52B1E7F1DC3275200E67A1F /* SecondViewController.m */,
+				F52B1E831DC329B700E67A1F /* SecondModel.h */,
+				F52B1E841DC329B700E67A1F /* SecondModel.m */,
+				F52B1E861DC329D400E67A1F /* SecondCell.h */,
+				F52B1E871DC329D400E67A1F /* SecondCell.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +141,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F52B1E771DC315A700E67A1F /* Build configuration list for PBXNativeTarget "SYMasonryDemo" */;
 			buildPhases = (
+				8FCC547EEB291F818EA7CF73 /* [CP] Check Pods Manifest.lock */,
 				F52B1E5C1DC315A600E67A1F /* Sources */,
 				F52B1E5D1DC315A600E67A1F /* Frameworks */,
 				F52B1E5E1DC315A600E67A1F /* Resources */,
+				B6DC0B7B9E318A20DCE3E28B /* [CP] Embed Pods Frameworks */,
+				3D2F79BB98DFDF2A3489957D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52B1E821DC3298000E67A1F /* my.jpg in Resources */,
 				F52B1E731DC315A700E67A1F /* LaunchScreen.storyboard in Resources */,
 				F52B1E701DC315A700E67A1F /* Assets.xcassets in Resources */,
 				F52B1E6E1DC315A700E67A1F /* Main.storyboard in Resources */,
@@ -145,14 +204,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3D2F79BB98DFDF2A3489957D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYMasonryDemo/Pods-SYMasonryDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FCC547EEB291F818EA7CF73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6DC0B7B9E318A20DCE3E28B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SYMasonryDemo/Pods-SYMasonryDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F52B1E5C1DC315A600E67A1F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52B1E801DC3275200E67A1F /* SecondViewController.m in Sources */,
 				F52B1E6B1DC315A700E67A1F /* ViewController.m in Sources */,
+				F52B1E881DC329D400E67A1F /* SecondCell.m in Sources */,
 				F52B1E681DC315A700E67A1F /* AppDelegate.m in Sources */,
+				F52B1E851DC329B700E67A1F /* SecondModel.m in Sources */,
 				F52B1E651DC315A700E67A1F /* main.m in Sources */,
+				F52B1E7D1DC320F900E67A1F /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +381,7 @@
 		};
 		F52B1E781DC315A700E67A1F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC30980C6777D1FA009B02F6 /* Pods-SYMasonryDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SYMasonryDemo/Info.plist;
@@ -281,6 +393,7 @@
 		};
 		F52B1E791DC315A700E67A1F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6FE9D73497006971B83FE38 /* Pods-SYMasonryDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SYMasonryDemo/Info.plist;
@@ -309,6 +422,7 @@
 				F52B1E791DC315A700E67A1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
